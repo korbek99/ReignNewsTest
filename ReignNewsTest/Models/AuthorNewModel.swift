@@ -28,14 +28,14 @@ struct Exhaustive {
 // MARK: - Hit
 struct Hit {
     let createdAt: String
-    let title, url: NSNull
+    let title, url: String
     let author: String
-    let points, storyText: NSNull
+    let points, storyText: String
     let commentText: String
-    let numComments: NSNull
+    let numComments: String
     let storyID: Int
     let storyTitle: String
-    let storyURL: String?
+    let storyURL: String
     let parentID, createdAtI: Int
     let tags: [String]
     let objectID: String
