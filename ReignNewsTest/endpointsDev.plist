@@ -5,7 +5,7 @@
 	<key>crearIssue</key>
 	<dict>
 		<key>url</key>
-		<string>http://demo3724643.mockable.io/</string>
+		<string>https://hn.algolia.com/api/v1/search_by_date?query=ios</string>
 		<key>x-api-key</key>
 		<string>yL285dvequN1GLt1yUCdpiHy8L8lJOlO</string>
 	</dict>

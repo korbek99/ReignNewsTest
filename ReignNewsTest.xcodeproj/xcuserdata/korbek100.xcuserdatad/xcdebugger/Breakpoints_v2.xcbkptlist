@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C247E2D7-E659-44A5-B832-9A4184C2ACA0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EA8D903-EA99-4EEB-82C7-7F8B5F09CA3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReignNewsTest/Services/webServicesNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EA8D903-EA99-4EEB-82C7-7F8B5F09CA3E - 4b46fb42d97c9716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ReignNewsTest.webServicesNews.getArticles(completion: (Swift.Optional&lt;Swift.Array&lt;ReignNewsTest.Hit&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ReignNewsTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/ReignNewsTest/ReignNewsTest/Services/webServicesNews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "6EA8D903-EA99-4EEB-82C7-7F8B5F09CA3E - 4b46fb42d97c9716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ReignNewsTest.webServicesNews.getArticles(completion: (Swift.Optional&lt;Swift.Array&lt;ReignNewsTest.Hit&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ReignNewsTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/ReignNewsTest/ReignNewsTest/Services/webServicesNews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "830">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A8B56D8-04A9-432A-B289-F6D746DD41C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReignNewsTest/Services/webServicesNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E863E3A2-BCBD-468D-90F3-6A82B7A53364"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReignNewsTest/Services/webServicesNews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getArticles(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

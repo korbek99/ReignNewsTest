@@ -22,6 +22,7 @@
 		57C8B37F29BBCB950003BA88 /* AuthorListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B37E29BBCB950003BA88 /* AuthorListViewModel.swift */; };
 		57C8B38829BBCDEE0003BA88 /* webServicesNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B38729BBCDEE0003BA88 /* webServicesNews.swift */; };
 		57C8B38D29BBCE2D0003BA88 /* endpointsDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C8B38C29BBCE2D0003BA88 /* endpointsDev.plist */; };
+		57C8B39229BBCFA40003BA88 /* APIEndpointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B39129BBCFA40003BA88 /* APIEndpointModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		57C8B37E29BBCB950003BA88 /* AuthorListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListViewModel.swift; sourceTree = "<group>"; };
 		57C8B38729BBCDEE0003BA88 /* webServicesNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webServicesNews.swift; sourceTree = "<group>"; };
 		57C8B38C29BBCE2D0003BA88 /* endpointsDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = endpointsDev.plist; sourceTree = "<group>"; };
+		57C8B39129BBCFA40003BA88 /* APIEndpointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				57C8B37529BBC7DD0003BA88 /* AuthorNewModel.swift */,
+				57C8B39129BBCFA40003BA88 /* APIEndpointModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				57C8B32F29BBBBEC0003BA88 /* AppDelegate.swift in Sources */,
 				57C8B38829BBCDEE0003BA88 /* webServicesNews.swift in Sources */,
 				57C8B37129BBBFB70003BA88 /* AuthorNewsTableViewCell.swift in Sources */,
+				57C8B39229BBCFA40003BA88 /* APIEndpointModel.swift in Sources */,
 				57C8B36C29BBBF9E0003BA88 /* AuthorNewsDetailsViewController.swift in Sources */,
 				57C8B33129BBBBEC0003BA88 /* SceneDelegate.swift in Sources */,
 				57C8B37629BBC7DD0003BA88 /* AuthorNewModel.swift in Sources */,

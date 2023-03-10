@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 class webServicesNews {
     var urlbase:String = ""
-    func getArticles( completion: @escaping ([Product]?) -> ()) {
+    func getArticles( completion: @escaping ([Hit]?) -> ()) {
         
         guard let endpointData = getEndpoint(fromName: "crearIssue") else { return }
         
@@ -25,14 +25,14 @@ class webServicesNews {
                 
             } else if let data = data {
               
-                let articleList = try? JSONDecoder().decode(ProductosList.self, from: data)
+                let articleList = try? JSONDecoder().decode(AuthorNewModel.self, from: data)
                 
-                if let articleList = articleList?.products {
+                if let articleList = articleList?.hits {
                    
                     completion(articleList)
                 }
                 
-                print(articleList?.products)
+                print(articleList?.hits)
                 
             }
             

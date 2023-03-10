@@ -8,12 +8,12 @@
 import Foundation
 
 // MARK: - Welcome4
-struct AuthorNewModel {
+struct AuthorNewModel: Decodable {
     let hits: [Hit]
     let nbHits, page, nbPages, hitsPerPage: Int
     let exhaustiveNbHits, exhaustiveTypo: Bool
     let exhaustive: Exhaustive
-    let query: Query
+    let query: String
     let params: String
     let processingTimeMS: Int
     let processingTimingsMS: ProcessingTimingsMS
@@ -21,12 +21,12 @@ struct AuthorNewModel {
 }
 
 // MARK: - Exhaustive
-struct Exhaustive {
+struct Exhaustive: Decodable  {
     let nbHits, typo: Bool
 }
 
 // MARK: - Hit
-struct Hit {
+struct Hit: Decodable  {
     let createdAt: String
     let title, url: String
     let author: String
@@ -43,30 +43,21 @@ struct Hit {
 }
 
 // MARK: - HighlightResult
-struct HighlightResult {
+struct HighlightResult: Decodable  {
     let author, commentText, storyTitle: Author
     let storyURL: Author?
 }
 
 // MARK: - Author
-struct Author {
+struct Author: Decodable  {
     let value: String
-    let matchLevel: MatchLevel
-    let matchedWords: [Query]
+    let matchLevel: String
+    let matchedWords: [String]
     let fullyHighlighted: Bool?
 }
 
-enum MatchLevel {
-    case full
-    case none
-}
-
-enum Query {
-    case ios
-}
-
 // MARK: - ProcessingTimingsMS
-struct ProcessingTimingsMS {
+struct ProcessingTimingsMS: Decodable  {
     let afterFetch: AfterFetch
     let fetch: Fetch
     let request: Request
@@ -74,16 +65,16 @@ struct ProcessingTimingsMS {
 }
 
 // MARK: - AfterFetch
-struct AfterFetch {
+struct AfterFetch: Decodable  {
     let total: Int
 }
 
 // MARK: - Fetch
-struct Fetch {
+struct Fetch: Decodable  {
     let scanning, total: Int
 }
 
 // MARK: - Request
-struct Request {
+struct Request: Decodable  {
     let queue, roundTrip: Int
 }
