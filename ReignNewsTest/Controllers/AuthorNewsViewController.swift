@@ -24,7 +24,6 @@ class AuthorNewsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTableView()
-
         // Do any additional setup after loading the view.
     }
     
@@ -58,7 +57,5 @@ extension AuthorNewsViewController:  UITableViewDelegate, UITableViewDataSource 
         
         return cell
     }
-    
-    
 }
 

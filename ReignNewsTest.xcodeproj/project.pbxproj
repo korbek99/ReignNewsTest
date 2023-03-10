@@ -18,6 +18,7 @@
 		57C8B36729BBBF890003BA88 /* AuthorNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B36629BBBF890003BA88 /* AuthorNewsViewController.swift */; };
 		57C8B36C29BBBF9E0003BA88 /* AuthorNewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B36B29BBBF9E0003BA88 /* AuthorNewsDetailsViewController.swift */; };
 		57C8B37129BBBFB70003BA88 /* AuthorNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B37029BBBFB60003BA88 /* AuthorNewsTableViewCell.swift */; };
+		57C8B37629BBC7DD0003BA88 /* AuthorNewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8B37529BBC7DD0003BA88 /* AuthorNewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		57C8B36629BBBF890003BA88 /* AuthorNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorNewsViewController.swift; sourceTree = "<group>"; };
 		57C8B36B29BBBF9E0003BA88 /* AuthorNewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorNewsDetailsViewController.swift; sourceTree = "<group>"; };
 		57C8B37029BBBFB60003BA88 /* AuthorNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorNewsTableViewCell.swift; sourceTree = "<group>"; };
+		57C8B37529BBC7DD0003BA88 /* AuthorNewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorNewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		57C8B36229BBBF340003BA88 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				57C8B37529BBC7DD0003BA88 /* AuthorNewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				57C8B37129BBBFB70003BA88 /* AuthorNewsTableViewCell.swift in Sources */,
 				57C8B36C29BBBF9E0003BA88 /* AuthorNewsDetailsViewController.swift in Sources */,
 				57C8B33129BBBBEC0003BA88 /* SceneDelegate.swift in Sources */,
+				57C8B37629BBC7DD0003BA88 /* AuthorNewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
